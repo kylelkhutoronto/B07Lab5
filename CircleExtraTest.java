@@ -9,7 +9,7 @@ class CircleExtraTest {
         double rad = 3;
         Circle c = new Circle(p1, rad);
         Point p2 = new Point(2, 1);
-        assertTrue(isPointInside(p2));
+        assertTrue(c.isPointInside(p2));
     }
 
     @Test
@@ -18,7 +18,7 @@ class CircleExtraTest {
         double rad = 1;
         Circle c = new Circle(p1, rad);
         Point p2 = new Point(1, 1);
-        assertFalse(isPointInside(p2));
+        assertFalse(c.isPointInside(p2));
     }
 
     @Test
@@ -26,7 +26,7 @@ class CircleExtraTest {
         Point p1 = new Point(0, 0);
         double rad = 2.3;
         Circle c = new Circle(p1, rad);
-        assertTrue(isPointInside(p1));
+        assertTrue(c.isPointInside(p1));
     }
 
 }
