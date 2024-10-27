@@ -16,3 +16,4 @@ public class Circle {
         if(dist <= rad) return true;
         return false;
     }
+}
