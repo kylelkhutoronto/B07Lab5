@@ -8,7 +8,7 @@ public class Circle {
     }
 
     public double perimeter(){
-        return 2*Math.pi*this.rad;
+        return 2*(Math.PI)*this.rad;
     }
 
     public boolean isPointInside(Point x){
